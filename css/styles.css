@@ -14,7 +14,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #FFF;
+  background: #3a3d40;
 }
 .messages {
   overflow: auto;
@@ -32,12 +32,13 @@ body {
   transform-origin: 0 100%;
   vertical-align: middle;
   transition: border-radius .25s ease-out .075s;
+  color: #fdfdfd;
 }
 .bubble.left.cornered {
   border-bottom-left-radius: 0;
 }
 .bubble.left {
-  background: rgba(206,206,206,0.50);
+  background: rgb(107, 113, 117);
 }
 .bubble:after {
   content: "";
@@ -62,7 +63,7 @@ body {
   opacity: 0;
 }
 .bubble a {
-  color: #0076FF;
+  color: #4eeafd;
 }
 .bubble .loading {
   position: absolute;
@@ -73,4 +74,27 @@ body {
 .bubble .loading b {
   display: inline-block;
   color: rgba(0,0,0,.5);
+}
+
+.file{
+  display: flex;
+  height: 3rem;
+  width:15rem;
+  align-items: center;
+}
+
+.file img{
+  width:auto;
+  height:2.5rem;
+  margin-right: 1rem;
+}
+
+.file div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.file p{
+  margin-top: .5rem;
+  margin-bottom: 0;
 }
