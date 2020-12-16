@@ -18,7 +18,6 @@ window.onload = function () {
     var messages = [
         'Hey there',
         'I\'m Seyyed Hassan',
-        // 'I design and code things on the web',
         'I create websites and things on the web',
         'I\'m currently accepting freelance work, and remote jobs <br> You can contact me at <a href="mailto:me@semycolon.me">me@semycolon.me</a>',
         'checkout my resume',

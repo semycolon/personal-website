@@ -79,14 +79,15 @@ body {
 .file{
   display: flex;
   height: 3rem;
-  width:15rem;
+  width:14rem;
   align-items: center;
 }
 
 .file img{
-  width:auto;
+  width:2.4rem;
   height:2.5rem;
-  margin-right: 1rem;
+  margin-right: .5rem;
+  margin-left: -.5rem;
 }
 
 .file div{
@@ -95,6 +96,6 @@ body {
   justify-content: space-around;
 }
 .file p{
-  margin-top: .5rem;
+  margin-top: .15rem;
   margin-bottom: 0;
 }
